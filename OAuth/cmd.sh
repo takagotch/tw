@@ -7,4 +7,5 @@
 ./bin/rails g controller home index
 ./bin/rails g controller sessions
 
+./bin/rails s
 

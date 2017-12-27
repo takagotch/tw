@@ -5,6 +5,9 @@ development:
   twitter:
     consumer_key: "<your_consumer_key>"
     consumer_secret: "<your_consumer_secret>"
+  tweet_settings:
+    text: "now %s"
+    follow_target_name: 'takagotch'
 
 test:
   <<: *defaults
