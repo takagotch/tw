@@ -1,4 +1,9 @@
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'settingslogic'
+gem 'twitter', "~> 4.8"
+
+gem 'tweetstream'
+gem 'mongoid', git: 'git://github.com/mongoid/mongoid.git'
+
 
