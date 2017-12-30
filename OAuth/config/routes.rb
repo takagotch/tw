@@ -11,3 +11,5 @@ get "/follow_check", :to => 'home#follow_check', :as => 'follow_check'
 map.root:controller => 'index'
 map.connect ':action', :controller => 'index'
 
+devise_for :user, path_names: { sign_in: "login", sign_out: "logout"},
+	  controllers: { omniauth_callback: "omniauth_callback"}
