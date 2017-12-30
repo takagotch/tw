@@ -1,0 +1,27 @@
+---
+OAuth
+- app
+  - controllers
+    - base_controller.rb
+    - home_controller.rb
+    - sessions_controller.rb
+    - home_controller.rb
+  - models
+    - user.rb
+  - views
+    - layouts
+      - application.html.erb
+    - home
+      - index.html.erb
+    - index
+      - index.html.erb
+- config
+  - initializers
+    - twitter.rb
+  - routes.rb
+  - settings.yml
+- gemfile
+- lib
+  - user
+    - session_user.rb
+
