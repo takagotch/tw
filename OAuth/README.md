@@ -19,6 +19,7 @@ OAuth
   - initializers
     - twitter.rb
   - routes.rb
+  - O_settings.rb
   - settings.yml
 - gemfile
 - lib
